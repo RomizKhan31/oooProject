@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ATM {
-    private double balance = 1000.0;
+    private double balance = 5000.0;
 
     public void deposit(double amount) {
         balance += amount;
