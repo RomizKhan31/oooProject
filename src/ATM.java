@@ -28,11 +28,11 @@ public class ATM {
             int choice = sc.nextInt();
             switch(choice) {
                 case 1:
-                    System.out.println("Enter amount:");
+                    System.out.print("Enter amount: ");
                     atm.deposit(sc.nextDouble());
                     break;
                 case 2:
-                    System.out.println("Enter amount:");
+                    System.out.print("Enter amount: ");
                     atm.withdraw(sc.nextDouble());
                     break;
                 case 3:
