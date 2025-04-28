@@ -16,14 +16,15 @@ public class ATM {
     }
 
     public void checkBalance() {
-        System.out.println("Current Balance: " + balance);
+        System.out.println("\nCurrent Balance: " + balance);
     }
 
     public static void main(String[] args) {
         ATM atm = new ATM();
         Scanner sc = new Scanner(System.in);
         while(true) {
-            System.out.println("\n1.Deposit 2.Withdraw 3.Balance 4.Exit");
+            System.out.println("\n*ATM_Machine*");
+            System.out.println("1.Deposit\n2.Withdraw\n3.Balance\n4.Exit");
             int choice = sc.nextInt();
             switch(choice) {
                 case 1:
