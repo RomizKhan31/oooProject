@@ -1,9 +1,11 @@
+package OopBasicConcept;
+
 class demo {
     String color;
     int speed;
 
     void drive() {
-        System.out.println("Car is driving...");
+        System.out.println("OopBasicConcept.Car is driving...");
     }
 }
 

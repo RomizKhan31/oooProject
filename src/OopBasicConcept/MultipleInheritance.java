@@ -1,3 +1,5 @@
+package OopBasicConcept;
+
 interface Flyable {
     void fly();
 }
@@ -8,11 +10,11 @@ interface Swimmable {
 
 class Duck implements Flyable, Swimmable {
     public void fly() {
-        System.out.println("Duck is flying...");
+        System.out.println("OopBasicConcept.Duck is flying...");
     }
 
     public void swim() {
-        System.out.println("Duck is swimming...");
+        System.out.println("OopBasicConcept.Duck is swimming...");
     }
 }
 

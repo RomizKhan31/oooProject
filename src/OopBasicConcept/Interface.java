@@ -1,3 +1,5 @@
+package OopBasicConcept;
+
 interface Lion {
     void sound();
 }
